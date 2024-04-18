@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.centro{
+    width: 1000px;
+    margin: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: arial, verdana;
+    font-size: 16px;
+    padding-top: 100px;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 10px #ccc;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #666;
+}
+header nav ul li a:hover{
+    color: black;
+}
+header a img{
+    padding: 10px;
+}
+
+section{
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+#home{
+    background-color: #f1f1f1;
+}
+
+#home button{
+    font-size: 100px;
+    font-family: 'Pixelify Sans', sans-serif;   
+    text-align: center;
+    padding:5px;
+    margin-left: 100px;
+    border-radius: 25%;
+    border: none;
+}
+#home button:hover{
+    font-weight: bold;
+}
+.container{
+
+    display: flex;
+    align-items: center;
+}
+
+.img-jogar img{
+    float: right;
+    border-radius: 25px;
+    margin-right: 100px;
+    filter: brightness(40%);
+    transition-duration: 1s;
+}
+.img-jogar img:hover{
+    filter: brightness(100%);
+    transition: 1s;
+}
+ 
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+#sobre-o-jogo p{
+    text-align: left;
+    margin: 10px;
+    font-size: 24px;
+}
+
+#sobre-o-jogo .txt p{
+    text-align: justify;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 40%;
+    line-height: 150%;
+    top: 5%;
+}
+.imgnave img{
+    border-radius: 15%;
+    position: relative;
+    float: right;
+    bottom: 350px;
+}
+.container2{
+    display: flex;
+    float: inline-start;
+    align-items: center;
+
+}
+.container2 img{
+    float: right;
+    margin-right: -250px;
+    top: 25%;
+    margin-bottom: -250px;
+}
+
+#personagens .centro p{
+    text-align: center;
+}
+#personagens h2{
+    padding: 5px;
+}
+.grid{ 
+    /*aplicar a grid*/
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grid .coluna{
+    /*sombra*/
+box-shadow: 0 0 10px #ccc;
+/*bordar arrendodada*/
+border-radius: 10px;
+/*margem externa*/
+margin: 10px;
+}
+.grid .coluna img{
+    /*largura*/
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.grid .coluna p, #personagens p{
+    margin: 15px;
+    /*alinhar ao centro*/
+    text-align: center;
+}
+
+input, textarea{
+    /*largura*/
+    width: 100%;
+    /*borda*/
+    border: 1px solid #ccc;
+    /*margem interna*/
+    padding: 10px;
+    /*retirar 20px dos 100% do width*/
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+label{
+    /*negrito*/
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+ }
+ #contato button{
+    background-color: greenyellow;
+    padding: 10px;
+    border: 0;
+    margin-top: 10px;
+ }
+ #contato h2{
+    padding-bottom: 5px;
+ }
+ footer {
+    background-color: black;
+    color: #f1f1f1;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+ }
+
+
+
